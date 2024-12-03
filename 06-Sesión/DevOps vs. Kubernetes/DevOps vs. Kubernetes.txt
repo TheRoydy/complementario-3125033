@@ -1,0 +1,5 @@
+DevOps vs. Kubernetes
+
+Problemática: Kubernetes es una herramienta fundamental dentro del ecosistema DevOps. Si hay más interés en DevOps, es probable que también aumente el interés por herramientas como Kubernetes.
+
+Hipótesis posible: El interés en Kubernetes crece cuando hay más adopción de prácticas DevOps.

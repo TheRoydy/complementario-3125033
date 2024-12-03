@@ -1,0 +1,5 @@
+Machine Learning vs. Python
+
+Problemática: Python es el lenguaje más utilizado en machine learning, por lo que un incremento en el interés por machine learning puede correlacionarse con un aumento en el uso de Python.
+
+Hipótesis posible: El interés por Python aumenta cuando hay más interés por machine learning, ya que Python domina este campo.

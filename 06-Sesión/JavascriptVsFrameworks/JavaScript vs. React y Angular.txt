@@ -1,0 +1,5 @@
+ JavaScript vs. React y Angular
+
+Problemática: El interés por JavaScript puede correlacionarse con el interés por frameworks populares como React o Angular, ya que estos frameworks dependen directamente de JavaScript. Si el interés en JavaScript disminuye, podría indicar que hay una saturación o cambio en las tecnologías de frontend.
+
+Hipótesis posible: El interés en frameworks como React aumenta cuando el interés en JavaScript se mantiene alto o crece.

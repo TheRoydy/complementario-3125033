@@ -1,0 +1,5 @@
+Bases de Datos: MySQL vs. SQL Server
+
+Problemática: MySQL es una base de datos de código abierto, mientras que SQL Server es una solución propietaria de Microsoft. Comparar sus tendencias puede reflejar la preferencia entre soluciones abiertas y propietarias.
+
+Hipótesis posible: MySQL es más popular entre desarrolladores independientes y pequeñas empresas, mientras que SQL Server se utiliza más en entornos corporativos.

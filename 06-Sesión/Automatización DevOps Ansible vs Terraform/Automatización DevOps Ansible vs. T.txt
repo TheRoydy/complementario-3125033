@@ -1,0 +1,5 @@
+Automatización DevOps: Ansible vs. Terraform
+
+Problemática: Ansible se enfoca en la configuración de sistemas, mientras que Terraform permite la provisión de infraestructura como código. Sus tendencias pueden reflejar la evolución de las prácticas DevOps.
+
+Hipótesis posible: Terraform domina en nuevos proyectos basados en la nube, mientras que Ansible mantiene relevancia en la gestión de servidores tradicionales.

@@ -1,0 +1,5 @@
+Lenguajes para Aplicaciones Móviles: Kotlin vs. Swift
+
+Problemática: Kotlin es usado en Android y Swift en iOS. Analizar la tendencia de ambos lenguajes puede mostrar la preferencia del mercado móvil entre las plataformas.
+
+Hipótesis posible: Cuando el interés por Kotlin aumenta, puede estar relacionado con un mayor enfoque en aplicaciones Android.

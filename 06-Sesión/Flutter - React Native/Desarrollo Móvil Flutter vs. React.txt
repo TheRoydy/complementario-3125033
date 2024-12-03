@@ -1,0 +1,5 @@
+Desarrollo Móvil: Flutter vs. React Native
+
+Problemática: Flutter y React Native son frameworks populares para el desarrollo móvil multiplataforma. Flutter es impulsado por Google, mientras que React Native es respaldado por Meta (Facebook). Comparar sus tendencias puede mostrar qué framework está ganando más adopción entre los desarrolladores.
+
+Hipótesis posible: Flutter está creciendo más rápido debido a su enfoque en el rendimiento nativo, mientras que React Native mantiene una base estable gracias a su comunidad madura.

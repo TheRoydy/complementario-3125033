@@ -1,0 +1,5 @@
+GitHub vs. GitLab
+
+Problemática: Ambas plataformas compiten como herramientas para el manejo de código y la colaboración en equipos. Puedes analizar si el aumento en el interés de una plataforma afecta a la otra (competencia directa).
+
+Hipótesis posible: Cuando el interés por GitHub crece, el interés por GitLab disminuye debido a su competencia directa.

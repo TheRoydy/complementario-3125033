@@ -1,0 +1,5 @@
+Cloud Computing: AWS vs. Microsoft Azure
+
+Problemática: Amazon Web Services (AWS) y Microsoft Azure son dos de las principales plataformas en la nube. Comparar sus tendencias puede mostrar qué plataforma domina el interés a lo largo del tiempo o cómo compiten en diferentes periodos.
+
+Hipótesis posible: El interés por AWS disminuye si Azure incrementa su adopción debido a su integración con empresas que ya usan productos de Microsoft.

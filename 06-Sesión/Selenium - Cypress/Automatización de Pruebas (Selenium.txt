@@ -1,0 +1,5 @@
+Automatización de Pruebas (Selenium vs. Cypress)
+
+Problemática: Selenium y Cypress son herramientas para la automatización de pruebas en aplicaciones web. Si el interés por Cypress crece, podrías suponer que está reemplazando a Selenium en algunos casos.
+
+Hipótesis posible: El interés por Selenium disminuye en favor de Cypress debido a su enfoque más moderno.
