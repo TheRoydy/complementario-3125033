@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Ruta del archivo
-file_path = "D:/Documents/complementario-3125033/06-Sesión/Automatización DevOps Ansible vs Terraform/ansinbleTerraform.xlsx"
+file_path = "D:/Documents/complementario-3125033/06-Sesión/DevOps vs. Kubernetes/devOpsKubernetes.xlsx"
 
 # Leer el archivo completo
 data = pd.read_excel(file_path, header=None)  # No asumimos encabezados, cargamos todo
@@ -20,20 +20,20 @@ print("Primeras filas procesadas del DataFrame:\n", data.head())
 
 # Extraer columnas relevantes
 semanas = pd.to_datetime(data['Semana'], errors='coerce')  # Convertir la columna 'Semana' a datetime
-ansible = pd.to_numeric(data['Ansible'], errors='coerce')  # Aseguramos conversión numérica
-terraform = pd.to_numeric(data['Terraform'], errors='coerce')
+devOps = pd.to_numeric(data['DevOps'], errors='coerce')  # Aseguramos conversión numérica
+kubernetes = pd.to_numeric(data['Kubernetes'], errors='coerce')
 
 # Graficar los datos
 plt.figure(figsize=(10, 6))
-plt.plot(semanas, ansible, label='Ansible', color='red', marker='o')
-plt.plot(semanas, terraform, label='Terraform', color='green', marker='o')
+plt.plot(semanas, devOps, label='DevOps', color='green', marker='o')
+plt.plot(semanas, kubernetes, label='Kubernates', color='blue', marker='o')
 
 # Personalización del gráfico
 plt.ylim(0, 100)
 plt.xticks(semanas[::len(semanas)//10], [str(year) for year in semanas.dt.year[::len(semanas)//10]])  # Ajustar las etiquetas de años
 plt.xlabel('Año')
 plt.ylabel('Índice de Popularidad')
-plt.title('Comparativa de Popularidad: Ansible vs Terraform')
+plt.title('Comparativa de Popularidad: DevOps vs Kubernetes')
 plt.legend()
 plt.grid()
 
