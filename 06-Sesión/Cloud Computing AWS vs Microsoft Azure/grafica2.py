@@ -1,12 +1,14 @@
-import matplotlib.pyplot as plt
-import pandas as pd
+# Importar librerías necesarias para el análisis y visualización de datos
+import matplotlib.pyplot as plt  # Para generar gráficos
+import pandas as pd  # Para manipular y analizar datos en formato tabular
 
 # Ruta del archivo
 file_path = "D:/Documents/complementario-3125033/06-Sesión/Cloud Computing AWS vs Microsoft Azure/AWSyMicrosoftAzure.xlsx"
 
-# Leer el archivo completo
-data = pd.read_excel(file_path, header=None)  # No asumimos encabezados, cargamos todo
-print("Primeras filas del DataFrame:\n", data.head())  # Verifica cómo se cargaron los datos
+# Leer el archivo de Excel completo
+# La opción `header=None` indica que no asumimos encabezados, se cargarán todos los datos tal como están.
+data = pd.read_excel(file_path, header=None)
+print("Primeras filas del DataFrame:\n", data.head())  # Mostrar las primeras filas para verificar los datos cargados
 
 # Localizar los encabezados reales
 headers_row = data[data.iloc[:, 0] == "Semana"].index[0]  # Encuentra la fila donde empieza "Semana"
