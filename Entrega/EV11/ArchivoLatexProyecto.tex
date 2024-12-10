@@ -1,0 +1,158 @@
+\documentclass[a4paper,12pt]{article}
+
+% Paquetes necesarios
+\usepackage[utf8]{inputenc} % Para caracteres especiales
+\usepackage[spanish]{babel} % Idioma español
+\usepackage{geometry} % Ajuste de márgenes
+\geometry{top=2.5cm, bottom=2.5cm, left=3cm, right=3cm}
+\usepackage{setspace} % Espaciado
+\onehalfspacing % Espaciado 1.5
+\usepackage{titlesec} % Formato de secciones
+\titleformat{\section}{\Large\bfseries}{\thesection.}{1em}{} % Estilo de secciones
+\titleformat{\subsection}{\large\bfseries}{\thesubsection.}{1em}{} % Estilo de subsecciones
+
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configuración de márgenes
+\geometry{left=3cm, right=3cm, top=2.5cm, bottom=2.5cm}
+
+% Personalización de título y sección
+\titleformat{\section}{\Large\bfseries\centering}{\thesection.}{1em}{}
+\renewcommand{\arraystretch}{1.5} % Espaciado entre filas en tablas
+
+\begin{document}
+
+% Título
+\begin{titlepage}
+    \centering
+    
+    \includegraphics[width=0.3\textwidth]{sena.png} % Inserta aquí el logo si tienes uno 
+    \vspace{0.5cm}\\
+    \vspace*{2cm}
+    {\Huge\bfseries\textcolor{teal}{Artículo de InvGenius} \par}
+    \vspace{1cm}
+    {\Large\textbf{Equipo de Desarrollo} \par}
+    \vspace{1cm}
+    \begin{tabular}{|>{\raggedright\arraybackslash}p{7cm}|>{\raggedright\arraybackslash}p{8cm}|}
+        \hline
+        \textbf{Nombre} & \textbf{Correo Electrónico} \\ \hline
+        Yordy Erik Núñez Pineda & \texttt{yordierik05@gmail.com} \\ \hline
+        Laura Valentina Ariza Alejo & \texttt{arizaalejolauravalentina@gmail.com} \\ \hline
+        Julián David Fierro Casanova & \texttt{julifierrocasanova@gmail.com} \\ \hline
+        Anyi Zujey Gómez Casanova & \texttt{anyi22195@gmail.com} \\ \hline
+        Willian Steban Gonzales Cortes & \texttt{willianstebangonzalezcortes@gmail.com} \\ \hline
+        Cristian Jeanpool Bahamon Granados & \texttt{cbahamongranados@gmail.com} \\ \hline
+    \end{tabular}
+    \vspace{2cm} % Más espacio entre la tabla y la fecha
+    \\
+    {\large\textbf{Fecha:} 2024 \par}
+    \vfill
+    \textcolor{gray}{\textbf{Centro de la Industria, la Empresa y los Servicios \\ Regional Huila - Neiva, Huila}} 
+    \vfill
+\end{titlepage}
+
+\maketitle
+
+\section{Resumen}
+El presente artículo demuestra los resultados obtenidos del proyecto “InvGenius”. Este proyecto surge a partir de un análisis donde se concluyó la existencia de un déficit en la gestión de inventarios de bodega en los minimercados, también llamados tiendas de barrio.
+
+Para llegar a esta conclusión, se llevaron a cabo entrevistas y encuestas en las que, encargados, jefes de tienda y demás personal identificaron y describieron sus inconformidades y contratiempos habituales en la gestión de inventarios. Se utilizó una metodología de investigación cualitativa que nos permitió descubrir las percepciones y experiencias de la población afectada, lo que evidenció la situación actual.
+
+Además de la evidencia recopilada mediante entrevistas y encuestas, es importante destacar que la implementación de un sistema de gestión de inventarios no solo mejora la eficiencia operativa, sino que también puede tener un impacto positivo en la satisfacción del cliente y en la rentabilidad del negocio.
+
+En conclusión, se confirma la presencia de deficiencias significativas en la gestión de inventarios en minimercados debido a la falta de un sistema adecuado. Esta carencia incide negativamente en el funcionamiento óptimo de estos establecimientos.
+
+\textbf{Palabras clave:} Gestión, Inventarios, Minimercados, Metodología, Encuestas, Bodega, Productos, Rentabilidad, Eficiencia. 
+
+\section{Introducción}
+El proyecto InvGenius tiene como objetivo principal abordar las deficiencias existentes en la gestión de inventarios de bodega en minimercados, optimizando procesos como el control de entradas y salidas de productos, la gestión de stock, y el seguimiento de productos próximos a caducar. En un contexto donde la eficiencia operativa y una gestión adecuada son fundamentales para garantizar un funcionamiento óptimo, es crucial resolver los desafíos relacionados con la organización y el control de los inventarios.
+
+La iniciativa InvGenius surge como respuesta a esta necesidad apremiante en la industria del retail. A través de este proyecto, se busca resaltar la importancia de implementar sistemas de gestión de inventarios para mejorar la eficiencia y optimizar el funcionamiento de los minimercados.
+
+Nuestra propuesta se centra en ofrecer soluciones para los administradores de tiendas, proporcionando herramientas útiles para la gestión de marcas, proveedores y localización de productos en bodega. Con nuestra aplicación, los administradores podrán llevar un control más efectivo sobre el inventario, registrar entradas y salidas de productos, y gestionar de manera proactiva el stock.
+
+En resumen, el Proyecto InvGenius busca revolucionar la forma en que se maneja la gestión de inventarios en minimercados, ofreciendo soluciones integrales que beneficien a los establecimientos, con el objetivo de mejorar la eficiencia operativa y la rentabilidad.
+
+
+\section{Metodología}
+En el desarrollo del proyecto InvGenius, se empleó la metodología Scrum. Aunque se establecieron roles específicos para cada miembro del equipo con el fin de facilitar la ejecución eficiente de diversas tareas, el proyecto enfrentó varios desafíos que impidieron cumplir con los plazos establecidos. A pesar de estos obstáculos, la metodología Scrum permitió mantener una comunicación continua entre los integrantes del equipo, lo que contribuyó a la identificación temprana de problemas y a la toma de decisiones rápidas para mitigar sus efectos.
+
+La experiencia adquirida durante el desarrollo del proyecto nos ha enseñado la importancia de la planificación realista y la gestión de expectativas, así como la necesidad de ser flexibles y adaptativos ante imprevistos que pueden surgir en el transcurso de un proyecto.
+
+
+\section{Resultados}
+
+\subsection{Aplicación Web}
+
+En la entrega del proyecto se presentó una aplicación web con las siguientes funcionalidades:
+
+\begin{itemize}
+    \item Registro de usuarios (administrador).
+    \item Visualización del perfil, modificar datos y eliminar (administrador).
+    \item Registro de productos en bodega (administrador, usuario).
+    \item Visualización de productos registrados, modificar datos y eliminar (administrador, usuario).
+    \item Control de entradas y salidas de productos (administrador, usuario).
+    \item Gestión de productos próximos a caducar (administrador, usuario).
+    \item Gestión de marcas y proveedores (administrador, usuario).
+    \item Generación de informes de inventario y movimiento de productos (administrador, usuario).
+\end{itemize}
+
+\subsection{Aplicativo Móvil}
+
+Adicionalmente, se desarrolló un aplicativo móvil diseñado exclusivamente para los administradores, con las siguientes funcionalidades:
+
+\begin{enumerate}
+    \item Registro de perfil y visualización de datos.
+    \item Visualización de productos, entradas y salidas.
+    \item Visualización de marcas y proveedores.
+\end{enumerate}
+
+
+
+\section{Conclusiones}
+En conclusión, el proyecto InvGenius ha concluido exitosamente con la entrega de una aplicación web completamente funcional dirigida a administradores y usuarios, junto con un aplicativo móvil diseñado específicamente para estos. Ambas aplicaciones han sido desarrolladas con las funcionalidades mencionadas previamente, lo que le permite llevar un control eficaz sobre la gestión de inventarios.
+
+Si bien el proyecto enfrentó desafíos que dificultaron el cumplimiento de los plazos inicialmente establecidos, esto nos brindó valiosas lecciones sobre la importancia de una planificación y gestión de recursos más efectivas. La experiencia adquirida resalta la necesidad de ser flexibles y adaptativos ante imprevistos, lo que a su vez mejoró la comunicación y colaboración entre los miembros del equipo.
+
+Además de las funcionalidades básicas, las aplicaciones incluyen características adicionales que mejoran la experiencia del usuario, como una interfaz intuitiva, seguridad de los datos y acceso a información relevante sobre la gestión de inventarios.
+
+En última instancia, el proyecto InvGenius ha alcanzado su objetivo de proporcionar soluciones completas para la gestión eficiente de inventarios en minimercados, sentando las bases para un servicio de calidad y una operación rentable.
+
+
+\section*{Agradecimientos}
+
+\subsection*{Agradecimientos Generales}
+
+En este recorrido tan bonito e importante, queremos agradecer al SENA por brindarnos la oportunidad de estudiar y formarnos con principios que nos preparan para el mundo laboral y la vida. Agradecemos profundamente al instructor Carlos Julio Cadena por su paciencia, apoyo y confianza a lo largo de este camino. También queremos reconocer el esfuerzo y la colaboración de cada uno de nosotros, así como el compromiso que le pusimos a este proyecto para culminarlo con éxito. ¡Gracias!
+
+\subsection*{Agradecimientos Especiales}
+
+Agradezco al SENA y al programa complementario \textit{Elaboración de Artículos Científicos en Actividades de Investigación}, así como al instructor Jesús Ariel González Bonilla, por su valiosa contribución.
+
+
+\section{Referencias}
+
+
+\bibitem{Elizalde2022}
+Elizalde, G. (2022, 3 agosto). ¿Qué debo escribir en los agradecimientos de mi Tesis? \textit{lamalditatesis}. Recuperado de \url{https://www.lamalditatesis.org/post/como-escribir-agradecimientos-tesis}
+
+\bibitem{Martínez2023}
+Martínez, J. (2023, 15 marzo). ¿Qué es la industria retail? Definición y características. \textit{MarketingDirecto}. Recuperado de \url{https://www.marketingdirecto.com/diccionario-marketing/industria-retail}
+
+\bibitem{Gómez2023}
+Gómez, L. (2023, 8 abril). La importancia de una buena gestión de inventarios en el retail. \textit{Retail News}. Recuperado de \url{https://www.retailnews.com/gestion-inventarios-retail}
+
+\bibitem{Pérez2022}
+Pérez, S. (2022, 5 octubre). Tendencias actuales en la industria retail: tecnología y experiencia del cliente. \textit{Retail Trends}. Recuperado de \url{https://www.retailtrends.com/tendencias-industria-retail}
+
+\end{thebibliography}
+
+
+\end{document}
